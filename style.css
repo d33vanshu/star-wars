@@ -1,0 +1,62 @@
+body {
+  /* background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");
+        /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input {
+  width: 90%;
+  padding: 2%;
+}
+#movies {
+  height: 200px;
+  width: 220px;
+  border-top: none;
+  overflow: scroll;
+}
+#logo {
+  width: 50%;
+  margin: auto;
+}
+#search {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+#search > div {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+img {
+  width: 100%;
+}
+#search > div > div:hover {
+  background-color: #000;
+  color: #fff;
+}
+.search-content {
+  display: grid;
+  grid-template:
+    "a a"
+    "b c";
+  grid-gap: 1%;
+  padding-bottom: 2%;
+}
+.search-content > h5 {
+  grid-area: "a";
+  padding-left: 5%;
+  margin-bottom: 0;
+}
+.gender {
+  grid-area: "c";
+  text-align: right;
+  padding-right: 5%;
+  /* margin: 0; */
+}
+.birth {
+  grid-area: "b";
+  margin: 0;
+  padding-left: 5%;
+}
